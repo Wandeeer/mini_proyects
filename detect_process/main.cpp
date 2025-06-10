@@ -11,13 +11,13 @@ void read_process() {
       return;
     }
 
-    PROCESSENTRY32 pe32; // Estructura, no HANDLE
+    PROCESSENTRY32 pe32;
     pe32.dwSize = sizeof(PROCESSENTRY32);
 
     if (Process32First(hSnapshot, &pe32)) {
         do {
           std::wcout << L"PROCESS NAME: " << pe32.szExeFile << L" (PID: " << pe32.th32ProcessID << L")\n";
-        } while (Process32Next(hSnapshot, &pe32)); // Aquí usas el nombre correcto
+        } while (Process32Next(hSnapshot, &pe32));
     } else {
       std::cerr << "Error al obtener el primer proceso.\n";
     }
