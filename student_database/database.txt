@@ -1,0 +1,2 @@
+juan,psicologo,8.000000
+Maria,Ingeniero,7.000000

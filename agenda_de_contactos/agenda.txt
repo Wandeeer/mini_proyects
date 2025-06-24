@@ -1,2 +1,3 @@
-Maria Juana,  1234567890,  mari@gmail.com
-Juan,  0987654321,  juan@gmail.com
+Maria Juana,   1234567890,   mari@gmail.com
+Juan,   0987654321,   juan@gmail.com
+xavier, 7223216818, xavi@gmail.com
